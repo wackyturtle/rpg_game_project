@@ -134,7 +134,7 @@ class Game {
       while (character_Name == null ||
           character_Name.isEmpty ||
           !RegExp(r'^[a-zA-Z가-힣]+$').hasMatch(character_Name)) {
-        print('올바른 이름을 입력하세요. (한글/영문만 허용)');
+        print('올바른 이름을 입력하세요. (영문만 허용)');
         stdout.write('캐릭터 이름을 입력하세요: ');
         character_Name = stdin.readLineSync();
       }

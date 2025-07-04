@@ -5,7 +5,7 @@ class Character extends Unit {
   bool itemUsed = false;
 
   Character(String name, int health, int attack_Power, int defense_Power)
-    : super(name, health, attack_Power, defense_Power); // 부모 생성자 호출
+    : super(name, health, attack_Power, defense_Power);
 
   void attack(Monster monster) {
     int damage = attack_Power - monster.defense_Power;

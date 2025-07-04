@@ -9,7 +9,7 @@ class Monster extends Unit {
   int turnCounter = 0; //도전 기능 3
 
   Monster(String name, int health, int attack_Power, int defense_Power)
-    : super(name, health, attack_Power, defense_Power); // 부모 생성자 호출
+    : super(name, health, attack_Power, defense_Power);
 
   //도전 기능 4 : 몬스터의 공격력이 계속 바뀌는게 showStatus에 표시됨
   void attack(Character character) {
